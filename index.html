@@ -1,0 +1,106 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Case File Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Case File Club</h1>
+        <p>Join The Case File Club: a true-crime club where members explore a new case together,compare evidence and discuss theories.</p>
+    </header>
+    <nav>
+        <a href="about">About</a>
+        <a href="Schedule">Schedule</a>
+        <a href="Join">Join</a>
+    </nav>
+    <main>
+        <section id="about" class="box">
+            <h2>About</h2>
+            <p>Welcome to The Case File Club, a community for curious true crime lovers. Each week, we open a new case file with a timeline, evidence cards and questions to guide discussions. Share your theory, see what others notice and check the solution when you're ready.</p>
+            <h3>Interactive Features:</h3>
+            <ul>
+                <li><strong>Open a case file:</strong> Reveal clues one at a time.</li>
+                <li><strong>Build the timeline:</strong>Drag events into the order you think they happened.</li>
+                <li><strong>Cast your theory:</strong>Choose a suspect or an explanation, then compare your theory with other</li>
+                <li><strong>Case closed:</strong>Reveal the official ending for the case.</li>
+            </ul>
+        </section>
+        <section id="schedule" class="box">
+            <h2>The Case File Club Schedule</h2>
+            <p>
+                <ul>
+                    <li><strong>Monday:</strong>Meet the case- Introduction of the case file.</li>
+                    <li><strong>Wednesday:</strong>Clue Check- Share theories and compare evidence.</li>
+                    <li><strong>Friday:</strong> Final Reveal- Solve the case and uncover the twist.</li>
+                </ul>
+            </p>
+
+        <section id="reasons">
+            <div class="cards">
+                <div class="card">
+                    <h3>Play detective.</h3>
+                        <p> Follow the clues and see if you can crack the case.</p>
+                </div>
+            
+                <div class="card">
+                    <h3>Debate your theory</h3>
+                        <p> Bring your best "I know who did it" energy.</p>
+                </div>
+            
+                <div class="card">
+                    <h3>Get your mystery fix.</h3>
+                        <p>Enjoy new cases, polls, and brain teasing twist with the crew.</p>
+                </div>
+            </div>
+        </section>
+            
+        
+        <button id="next-btn">When is the next meeting?</button>
+            <p id="next-meeting"></p>
+        </section>
+        <section id="join" class="box">
+            <h2>Come join us!</h2>
+            <p>Ready to put your detectives skills to the test? Join the Case File Club for mysteries, clever clues and weekly cases. Grab you notebook, trust your instincts, and help us crack the next case.</p>
+        <form>
+            <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            
+            <div class="field">
+            <label for="password">Create a password for the members' page</label>
+            <input type="password" id="password" name="password" required>
+            </div>
+           
+            <div class="field">
+            <select id="contact-time" name="contact-time">
+                <option value="">Best time to be reached</option>
+                <option value="morning">Morning (8 a.m -12 p.m)</option>
+                <option value="afternoon">Afternoon (12-5 p.m)</option>
+                <option value="evening">Evening (5-9 p.m)</option>
+                <option value="anytime">Anytime</option>
+            </select>
+            </div>
+            
+            <div class="field">
+            <label for="message">Anything We Should Know?</label>
+            <textarea id="message" name= "message" rows="4"></textarea>
+            </div>
+            
+            <button type="submit">Sign me up</button>
+        </form>
+
+        </section>
+    </main>
+    <footer>Made By Shante S. 2026</footer>
+    <script src="script.js"></script>
+</body>
+</html>
