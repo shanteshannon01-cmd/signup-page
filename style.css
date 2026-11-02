@@ -47,3 +47,15 @@ textarea:focus {
 input:user-invalid {
   border: 2px solid crimson;
 }
+
+.cards{
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex: 1 1 200px;
+    border: 2px solid darkgreen;
+    padding: 16px;
+}
